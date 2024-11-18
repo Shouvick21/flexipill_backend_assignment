@@ -1,9 +1,9 @@
 // password,user,host this 3 thing is needed to run mysql server in ./config/mysqlConnect.js file and this 3 are in env file which i don't pushed into the github
 // route will be=> 
-    //Get- apiurl/api/task= to get all task
-    //post- apiurl/api/task= to create new task
-    //put- apiurl/api/task/:id = to update a existing task
-    //delete- apiurl/api/task:id= to delete a existing task
+    //Get- apiurl/api/tasks= to get all task
+    //post- apiurl/api/tasks= to create new task
+    //put- apiurl/api/tasks/:id = to update a existing task
+    //delete- apiurl/api/tasks/:id= to delete a existing task
 
 
 const express=require("express");
