@@ -2,6 +2,10 @@
 const {createConnection}=require("mysql2/promise")
 require("dotenv").config()
 
+
+
+
+
 const password=process.env.PASSWORD
 const user=process.env.USER
 const host=process.env.HOST
